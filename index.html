@@ -21,13 +21,32 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     ></script>
 
-    <div class="container-fluid p-5">
+    <div class="btn-group-vertical btn-group-lg p-5">
       <button class="btn btn-success btn-lg">Sucesso</button>
       <button class="btn btn-success btn-outline-danger btn-sm">Sucesso</button>
       <button class="btn btn-secondary btn-block">Secondary</button>
       <button class="btn btn-primary disabled btn-block">Primary</button>
-      <button class="btn btn-close"></button>
-      <button class="btn btn-link">Link</button>
+    </div>
+
+    <div class="btn-group btn-group-lg p-5">
+      <button class="btn btn-success btn-lg">Sucesso</button>
+      <div class="btn-group">
+        <button
+          data-bs-toggle="dropdown"
+          class="btn btn-success btn-outline-danger btn-sm dropdown-toggle"
+        >
+          Sucesso
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="test" class="dropdown-item">test</a>
+          <a href="test" class="dropdown-item">test</a>
+          <a href="test" class="dropdown-item">test</a>
+        </div>
+      </div>
+      <button class="btn btn-secondary btn-block">Secondary</button>
+
+      <button class="btn btn-primary disabled btn-block">Primary</button>
     </div>
   </body>
 </html>
