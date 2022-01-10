@@ -21,14 +21,29 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     ></script>
 
-    <div class="container-fluid p-4">
-      <img
-        src="luffy.jpg"
-        alt="luffy"
-        class="w-25 rounded-circle d-block mx-auto mb-5"
-      />
+    <div
+      id="jumbotron"
+      class="container bg-primary text-light p-4 rounded my-4"
+    >
+      <h1>CFB Cursos</h1>
 
-      <img src="luffy.jpg" alt="luffy" class="img-fluid rounded" />
+      <hr style="height: 3px; opacity: 1" class="rounded-circle" />
+
+      <p>Curso de desenvolvimento de software.</p>
+    </div>
+
+    <div class="container">
+      <button
+        onclick="document.getElementById('jumbotron').classList.remove('invisible')"
+      >
+        Mostrar
+      </button>
+
+      <button
+        onclick="document.getElementById('jumbotron').classList.add('invisible')"
+      >
+        Ocultar
+      </button>
     </div>
   </body>
 </html>
