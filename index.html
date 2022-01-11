@@ -21,41 +21,39 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     ></script>
 
-    <div
-      class="container-fluid border align-items-center d-flex justify-content-center"
-    >
-      <ul class="pagination">
-        <li class="page-item active" onclick="active(this)">
-          <a class="page-link" href="#">Anterior</a>
-        </li>
-        <li class="page-item" onclick="active(this)">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item" onclick="active(this)">
-          <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item" onclick="active(this)">
-          <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item" onclick="active(this)">
-          <a class="page-link" href="#">4</a>
-        </li>
-        <li class="page-item" onclick="active(this)">
-          <a class="page-link" href="#">Próximo</a>
-        </li>
-      </ul>
-    </div>
+    <ul class="list-group">
+      <li
+        class="list-item active list-group-item-primary list-group-item-action"
+      >
+        1
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        2
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        3
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        4
+      </li>
+    </ul>
 
-    <script>
-      const active = (element) => {
-        let items = document.getElementsByClassName("page-item");
-
-        for (let i = 0; i < items.length; i++)
-          items[i].classList.remove("active");
-
-        element.classList.add("active");
-      };
-    </script>
+    <ul class="list-group list-group-horizontal">
+      <li
+        class="list-item active list-group-item-primary list-group-item-action"
+      >
+        1
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        2
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        3
+      </li>
+      <li class="list-item list-group-item-primary list-group-item-action">
+        4
+      </li>
+    </ul>
   </body>
 </html>
 
