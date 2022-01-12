@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Miguel <miguelandradebarreto2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass ./sass/main.scss css/main.css --watch --style compressed"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
