@@ -1,8 +1,0 @@
-/* 
-  custom variable before default variable because sass feature !default
-  only apply value if is not declared before
- */
-
-$primary: #633bbc;
-
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
